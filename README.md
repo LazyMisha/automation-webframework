@@ -8,8 +8,10 @@
 - Send email with results (Allure report) (.zip)
 - Local run and Selenium Grid run
 - Hamcrest matcher
-- JavaFaker for test generate data
+- JavaFaker for generate test data
 
+Go
+ -
 - Navigate to the '/resources/Run.config.properties' file
 - Install what you need
 
