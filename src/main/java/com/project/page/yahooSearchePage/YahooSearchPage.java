@@ -1,4 +1,4 @@
-package com.project.page.testPage;
+package com.project.page.yahooSearchePage;
 
 import com.project.common.CommonPage;
 import com.project.logger.Log;

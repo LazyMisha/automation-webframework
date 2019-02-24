@@ -1,6 +1,6 @@
 package com.project.page;
 
-import com.project.page.testPage.YahooSearchPage;
+import com.project.page.yahooSearchePage.YahooSearchPage;
 
 public class PagesContainer {
 
