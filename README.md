@@ -29,7 +29,7 @@ For selenium grid run
 Get allure report for WINDOWS
  -
  - In order to generate a report, just install Allure command-line interpreter
- - Download the latest version as a zip archive from 'https://bintray.com/qameta/generic/allure2'
+ - Download the latest version as a zip archive from 'https://github.com/allure-framework/allure2/releases/tag/2.12.1'
  - Unpack the archive to allure-commandline directory
  - Navigate to bin directory and copy path
  - Add allure to system PATH
@@ -38,7 +38,7 @@ Get allure report for WINDOWS
 
 Get allure report for LINUX
  -
- - Download the latest version as a zip archive from 'https://bintray.com/qameta/generic/allure2'
+ - Download the latest version as a zip archive from 'https://github.com/allure-framework/allure2/releases/tag/2.12.1'
  - Unpack the archive to allure-commandline directory
  - Copy 'allure-results' folder from the project root after tests running
  - Navigate to allure bin directory
