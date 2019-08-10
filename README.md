@@ -1,6 +1,6 @@
 # automation-webframework
 
-- Java 8
+- Java 12
 - TestNG
 - DataProvider
 - Log4j report

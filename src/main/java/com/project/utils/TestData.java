@@ -2,28 +2,30 @@ package com.project.utils;
 
 import com.github.javafaker.Faker;
 
+import java.util.Date;
+
 public class TestData {
 
     private static Faker faker = new Faker();
 
     public static String getFakeFirstName() {
-        return faker.name().firstName();
+        return faker.firstName();
     }
 
     public static String getFakeCountry(){
-        return faker.address().country();
+        return faker.country();
     }
 
     public static String getFakeCity(){
-        return faker.address().city();
+        return faker.cityPrefix() + " " + faker.citySuffix();
     }
 
-    public static String getPassword(int min, int max) {
-        return faker.lorem().characters(min, max);
+    public static String getPassword() {
+        return faker.zipCode() + new Date().getTime();
     }
 
     public static String getFakeEmail() {
-        return faker.internet().emailAddress();
+        return faker.name() + "@" + faker.streetName() + "." + faker.cityPrefix();
     }
 
 

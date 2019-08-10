@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke_tests" verbose="1">
+    <test name="Smoke_tests" >
+        <classes>
+            <class name="WebUiTests">
+                <methods>
+                    <include name="Test_Yahoo_check_searching_string"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

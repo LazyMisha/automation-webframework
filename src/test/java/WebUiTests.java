@@ -74,7 +74,7 @@ public class WebUiTests extends Config {
         Log.warn("First warning");
 
         Log.step("1. Type info");
-        web.yahooSearchPage.typeToSearchField(TestData.getPassword(7, 10));
+        web.yahooSearchPage.typeToSearchField(TestData.getPassword());
 
         Log.step("2. Submit");
         web.yahooSearchPage.submit();
