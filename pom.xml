@@ -21,7 +21,7 @@
         <javafaker.version>0.2</javafaker.version>
         <allure.testng.version>2.12.1</allure.testng.version>
         <jaxb.api.version>2.3.1</jaxb.api.version>
-        <javax.mail.version>1.4.5</javax.mail.version>
+        <javax.mail.version>1.4.7</javax.mail.version>
     </properties>
 
     <build>
